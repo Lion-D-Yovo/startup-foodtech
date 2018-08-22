@@ -1,24 +1,27 @@
-# README
+### Lien
+https://minimalism-trendy-restaurant.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Le Projet
+Less is More.
 
-Things you may want to cover:
+### Ressources
 
-* Ruby version
+ruby '2.5.1'
+rails '5.2.1'
 
-* System dependencies
+* [Rails](https://rubyonrails.org/) - On ne le presente plus
+* [Bootstrap](https://getbootstrap.com/) - An open source toolkit for developing with HTML, CSS, and JS
 
-* Configuration
+### Gemfile
 
-* Database creation
+| gem | info  |
+| ------ | ------ |
+| gem 'jquery-rails' | |
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Lancement :
+```sh
+$ git clone 
+$ bundle install
+$ rails db:create
+```
