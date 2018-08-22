@@ -15,17 +15,3 @@
 //= require turbolinks
 //= require_tree .
 //= require jquery3
-$(document).ready(function() {
-
-    $('ul.tabs li').click(function() {
-      var tab = $(this).data('tab');
-  
-      $('.tab-container').removeClass('current');
-      $('ul.tabs li').removeClass('current');
-  
-      $(this).addClass('current');
-      $("#" + tab).addClass('current');
-    })
-
-  
-  })
